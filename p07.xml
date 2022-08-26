@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<book>
+	<name>SQL</name>
+	<price>700.00</price>
+	<author>
+		<first-name>James</first-name>
+		<last-name>Scott</last-name>
+	</author>
+</book>

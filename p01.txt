@@ -1,0 +1,6 @@
+﻿<!--&amp; is called Entity Reference and &#38 is called Character Reference and both are used to refer & -->
+<!--&apos; is called Entity Reference and &#27 is called Character Reference and both are used to refer ' -->
+<!--&gt; and &#62; are used to refer >-->
+<!--&#169; or &#xa9; is used to refer ©-->
+<!--&#174; is used to refer ®-->
+<!--&#8482; or &#x2122; is used to refer ™-->

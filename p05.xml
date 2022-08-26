@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!DOCTYPE persons SYSTEM "p05.dtd">
+
+<persons> 
+	<person> 
+		<title>Mrs</title>
+		<name>Jahanara</name>
+	</person> 
+	<person> 
+		<name>Jahangir</name>
+	</person>
+	<person>
+		<title>Mr</title>
+		<name>Jashim</name>
+	</person>
+</persons> 

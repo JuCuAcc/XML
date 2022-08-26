@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Info</title>
+	<script>
+		function loadXML() {
+			//load the parsers
+			var doc = new ActiveXObject("microsoft.xmldom");
+			doc.async = false;
+
+			//parse the document
+			doc.load("p07.xml");
+
+			//find the root element: <book>...</book>
+			var root = doc.documentElement;
+
+			document.getElementById("bn").innerHTML = root.childNodes.item(0).text;
+            document.getElementById("bp").innerHTML = root.childNodes.item(1).text;
+            document.getElementById("an").innerHTML = root.childNodes.item(2).childNodes.item(0).text + ' ' + root.childNodes.item(2).childNodes.item(1).text;
+			
+		}
+	</script>
+</head>
+<body onload="loadXML();">
+	<h3>Book and Author Info</h3>
+	Name: <span id="bn"></span><br>
+	Author: <span id="an"></span><br>
+	Price: <span id="bp"></span><br>
+</body>
+</html>

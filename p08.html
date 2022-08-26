@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Trainees</title>
+    <script>
+
+		function loadXML() {
+			//load the parsers
+			var doc = new ActiveXObject("microsoft.xmldom");
+			doc.async = false;
+
+			//parse the document
+			doc.load("p08.xml");
+
+			//find the root element: <book>...</book>
+			var root = doc.documentElement;
+			document.getElementById("n0").innerHTML = root.childNodes.item(0).childNodes.item(0).text;
+			document.getElementById("a0").innerHTML = root.childNodes.item(0).childNodes.item(1).text;
+			document.getElementById("c0").innerHTML = root.childNodes.item(0).childNodes.item(2).text;
+			document.getElementById("n1").innerHTML = root.childNodes.item(1).childNodes.item(0).text;
+			document.getElementById("a1").innerHTML = root.childNodes.item(1).childNodes.item(1).text;
+			document.getElementById("c1").innerHTML = root.childNodes.item(1).childNodes.item(2).text;
+			document.getElementById("n2").innerHTML = root.childNodes.item(2).childNodes.item(0).text;
+			document.getElementById("a2").innerHTML = root.childNodes.item(2).childNodes.item(1).text;
+			document.getElementById("c2").innerHTML = root.childNodes.item(2).childNodes.item(2).text;
+		}
+    </script>
+</head>
+<body onload= "loadXML()";>
+<table border="1">
+	<caption><h2>Trainees Info</h2></caption>
+	<tr>
+		<td>Name: <span id="n0"></span></td>
+		<td></td>
+		<td>Assigned To: <span id="a0"></span></td>
+		<td></td>
+		<td>Contact: <span id="c0"></span></td>
+	</tr>
+	
+	<tr>
+		<td>Name: <span id="n1"></span></td>
+		<td></td>
+		<td>Assigned To: <span id="a1"></span></td>
+		<td></td>
+		<td>Contact: <span id="c1"></span></td>
+	</tr>	
+	<tr>
+		<td>Name: <span id="n2"></span></td>
+		<td></td>
+		<td>Assigned To: <span id="a2"></span></td>
+		<td></td>
+		<td>Contact: <span id="c2"></span></td>
+	</tr>
+</table>
+</body>
+</html>

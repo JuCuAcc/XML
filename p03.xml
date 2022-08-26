@@ -1,0 +1,15 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE course SYSTEM "p03.dtd">
+<course course-id="ESAD-CS">
+	<title>Enterprise System Analysis and Design using Visual C Sharp</title>
+	<modules>
+		<module moduleid="ESADCS-01">
+			<name>Programming Concepts</name>
+			<duration>80</duration>
+		</module>
+		<module moduleid="ESADCS-02">
+			<name>Designing and implementing databases</name>
+			<duration>60</duration>
+		</module>
+	</modules>
+</course>

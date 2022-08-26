@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<trainees>
+	<trainee course="ESAD" round="11">
+		<name>Nazmul Haq</name>
+		<assignedto>DIIT</assignedto>
+		<contact>0110889933</contact>
+	</trainee>
+	<trainee course ="NT" round="11">
+		<name>Anwar</name>
+		<assignedto>DIIT</assignedto>
+		<contact>0110887766</contact>
+	</trainee>
+	<trainee course ="ESAD" round="11">
+		<name>Sanu</name>
+		<assignedto>BITL</assignedto>
+		<contact>0110786094</contact>
+	</trainee>
+</trainees>

@@ -1,0 +1,7 @@
+
+<!ELEMENT persons (person*)>
+<!ELEMENT person (title?, name)>
+<!ELEMENT title (Mr?, Mrs?)>
+<!ELEMENT Mr (#PCDATA)>
+<!ELEMENT Mrs (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
